@@ -22,8 +22,8 @@ class Movie
     }
 }
 // creo 2 istanze della classe Movie
-$movie_1 = new Movie("Pulp Fiction", array("thriller", "giallo"), 1994);
-$movie_2 = new Movie("Inception", array("azione", "crime"), 2010);
+$movie_1 = new Movie("Pulp Fiction", ["thriller", "giallo"], 1994);
+$movie_2 = new Movie("Inception", ["azione", "crime"], 2010);
 
 $movie_1->director = "Quentin Tarantino";
 $movie_2->director = "Christopher Nolan";
