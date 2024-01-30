@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.movie-container {
+    background-color: rgb(250, 75, 75);
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px #333333;
+}
