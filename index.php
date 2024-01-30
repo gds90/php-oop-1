@@ -12,4 +12,10 @@ class Movie
         $this->genre = $_genre;
         $this->year = $_year;
     }
+
+    function getAge()
+    {
+        $currentYear = 2024;
+        return $currentYear - $this->year;
+    }
 }
