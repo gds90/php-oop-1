@@ -27,3 +27,8 @@ $movie_2 = new Movie("Inception", "Crime", 2010);
 
 $movie_1->director = "Quentin Tarantino";
 $movie_2->director = "Christopher Nolan";
+
+// stampo a schermo i valori delle proprietà delle due istanze
+echo $movie_1->title . " è un film del " . $movie_1->year . ", scritto e diretto da " . $movie_1->director . ", genere: " . $movie_1->genre . ".";
+echo "<br><br>";
+echo $movie_2->title . " è un film del " . $movie_2->year . ", scritto e diretto da " . $movie_2->director . ", genere: " . $movie_2->genre . ".";
